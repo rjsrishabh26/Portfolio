@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+:root{
+    --black: #000000;
+    --off-white:#EFF6FF;
+    --green: #34D399;
+    --white: #FFFFFF;
+
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    font-weight: bold;
+}
+/* hr{
+    margin: 2rem 0rem;
+} */
+.non-bullet{
+    list-style: none;
+}
+.inline{
+    display:inline;
+    padding: 0rem 1rem;
+}
+.nav-items{
+    text-align: center;
+    font-size: large;
+}
+.nav-brand{
+    font-size: larger;
+    color: black;
+}
+.container {
+    padding: 0rem 0.5rem;
+}
+.navigation{
+    background-color: var(--white);
+}
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+}
+.link-black {
+    background-color: var(--green);
+    border-radius: 0.5rem;
+    color: black
+}
+.link-white {
+    background-color: var(--green);
+    border-radius: 0.5rem;
+    color: white
+}
+.nav-inactive{
+    color:black;
+    font-weight: bolder;
+}
+.nav-active{
+    color:var(--white);
+    font-weight: bolder;
+    background-color: var(--black);
+    border-radius: 0.25rem;
+}
+.offwhite-cont{
+    background-color: var(--off-white);
+    padding: 2rem;
+}
+.name{
+    color: var(--green);
+}
+.black-cont{
+    background-color: var(--black);
+    padding:2rem;
+    color: var(--white);
+}
+.footer-items{
+    text-align: center;
+    font-size: large;
+}
+
+.footer {
+    background-color: var(--white);
+    padding: 0rem 1rem;
+    text-align: center;
+    color: var(--black);
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: black;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+.img-intro{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    padding: 2rem;
+}
+.img-blog{
+    max-width: 100px;
+    display: block;
+    margin: auto;
+    padding: 0rem;
+}
+.img-project{
+    max-width: 100px;
+    display: block;
+    margin: auto;
+    padding: 0rem;
+}
+.img-footer{
+    max-width: 100px;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+}
+.date{
+    font-size: small;
+    color: var(--white)
+}
+hr{
+    max-width: 300px;
+    align-self: center;
+}
+.link-heading{
+    color: var(--green);
+    outline-style: none;
+}
+.tittle{
+    padding: 1rem;
+    text-align: center;
+}
+.blog-tittle{
+    padding: 2rem;
+}
+
+.blog-date{
+    font-size: small;
+    color: var(--green);
+}
