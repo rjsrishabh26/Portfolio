@@ -23,7 +23,7 @@ h2{
 
 body{
     font-family: 'Ubuntu', sans-serif;
-    margin: 0px, 300px;
+    margin: 0px;
     /* font-weight: bold; */
     text-align: center;
     margin: 0px;
@@ -101,6 +101,7 @@ body{
 }
 .name{
     color: var(--green);
+
 }
 .black-cont{
     background-color: var(--black);
@@ -235,7 +236,11 @@ hr{
     bottom: 0;
     height: 100%;
   }
-
+.name1{
+    color: var(--green);
+    font-size: x-large;
+    
+}
 
 
 
