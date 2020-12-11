@@ -26,7 +26,7 @@ body{
     margin: 0px;
     /* font-weight: bold; */
     text-align: center;
-    margin: 0px;
+    margin: 0px 0px 0px 0px;
     /* background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB); */
 }
 /* hr{
@@ -217,6 +217,9 @@ hr{
     font-weight: bolder;
     font-style: italic;
     
+}
+.inv-grad{
+    background: linear-gradient(white, #B2B0B0 );
 }
 /* .test{
      
