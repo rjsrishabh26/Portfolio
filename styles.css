@@ -70,6 +70,10 @@ body{
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 0.5rem;
+    color: var(--green)
+}
+.link:hover{
+    color:white;
 }
 .link-black {
     background-color: var(--green);
@@ -242,6 +246,10 @@ hr{
 .name1{
     color: var(--green);
     font-size: x-large;
+    
+}
+.photo{
+    width: 20%;
     
 }
 
