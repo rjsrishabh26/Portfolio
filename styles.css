@@ -253,9 +253,13 @@ hr{
     
 }
 
+.blog-text{
+    padding: 1rem;
+    margin: 0% 10%;
+}
 
-
-
-
-
+.img-intro-blog{
+    width: 60%;
+    height: 30vh;
+}
 

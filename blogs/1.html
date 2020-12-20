@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Topic | Rishabhjot</title>
+    <title>Ram usage | Rishabhjot</title>
     <link href="../styles.css" rel="stylesheet" />
+    <link rel="icon" href="../Images/favicon-32x32.png">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <nav class="nav-container container">
-        <div class="nav-brand">BrandName</div>
+    <nav class="navigation">
+        <!-- <div class="nav-brand">BrandName -->
+            <div>
         <ul class= "non-bullet nav-items">
             <li class="inline nav-items">
                 <a class ="nav-inactive link" href= "../index.html">Home</a>
@@ -20,47 +23,76 @@
                 <a class="link nav-inactive"  href= "../projects.html">Projects</a>
             </li>
         </ul>
+    </div>
     </nav>
 
+    <img class="img-intro-blog" src="../Images/google.png" />
     <div class= "blog-tittle">
-        <h1>Filler <span class= "name">Filler</span></h1>
+        <h1>Why does <span class= "name">Google Chrome Use so much RAM?</span></h1>
     </div>
-
-    <img class="img-intro" src="../Images/blah-blh.jpg" />
     
     <div class="black-cont container">
         <div class ="blog-date">
-            2 Jan, 2020
+            19 December, 2020
         </div>
+        <div class= "blog-text">
         <h3>
-            One advanced diverted domestic sex repeated bringing you old. Possible procured her trifling laughter thoughts property she met way. Companions shy had solicitude favourable own. Which could saw guest man now heard but. Lasted my coming uneasy marked so should. Gravity letters it amongst herself dearest an windows by. Wooded ladies she basket season age her uneasy saw. Discourse unwilling am no described dejection incommode no listening of. Before nature his parish boy.
+            <h2 class="blog-text name">History of browsers</h2>
+            <img src="../Images/mos-10.jpg">
+            <h3>We have come a far way in terms of internet browsing, from the first ever browser- or browser-editor rather being WorldWideWeb which was later renamed to Nexus being the only way to view the internet, where in to view images, they had to be downloaded. They the next big browser was the MOSAIC browser by NCSA which let multimedia also be viewed on it and was the foundation for many more browsers to come. After this was the Netscape which was a benchmark in the market at the time. Microsoft licensed Spyglass Enhanced Mosaic in 1995 for 8 million dollars to create the browser Internet Explorer.  This was to be included in all versions of Windows and Macintosh later. Netscape open sourced their code to make "The Mozilla Project”. In 2005 with the release of Firefox, we got a lot of new features like Tab browsing, custom extensions and download manager. Then came the revolutionary browser “Google Chrome”, which was released in 2008 with the promise of faster and secure browsing which used multithreading. In late 2019, a whopping 64% users across platform use Google Chrome.  
+            
+            This is mainly because of it’s easy to learn interface and it is faster than many other browsers out there. But there is always a catch....... 
+            </h3>
+            
+            <h2 class="name">The Problem</h2> 
+            <img class="" src="../Images/ram.png">
+            <br>
+            <h3>
+            Google chrome likes RAM. A lot of RAM. If your machine is running on 8Gb RAM or lower and you know the basic of how to get about in the machine, you would have already noticed that with too many tabs, Chrome slows down the machine and only with a couple of tabs, the RAM usage starts hitting 2Gb. As to how much it uses depends on how many tabs you have opened at once and what is running on the tabs but it isnt very hard to start straining your system by only looking at memes on Reddit with a 4k video running in the background and a couple of tabs from your overdue assignment that still isn't done. This is a major issue for low end users who are running on 4Gb as this doesn’t allow a lot of space for other programs to be stored in RAM and it significantly slows everything down.  
+            
+            This isn't only because of the fact that in 2020, a lot of internet stuff just has a higher RAM usage like high-definition videos, features and extensions but also because of Chrome’s “speed”. 
+            
+            Google Chrome sandboxes everything that is running. This includes tabs, extensions, etc. What this means is that Chrome splits off each tab and extension into its own process which occupies its own space and memory. This is done so that if one tab or process were to stop working or crash, it wouldn’t affect the rest of the browsing session. This is a handy feature as this makes sure you don’t lose all your tabs. But this also means that chrome replicates it functionality in every sandbox meaning, it will consume more RAM in comparison. It’s a tradeoff between stability and RAM consumption.  
+            
+            However, there is another reason for such high RAM usage. Part of the reason why it's so fast, is because it a bunch of its data in RAM, which is a lot faster to access than HDD or SSD. It uses Prerendering to do so. This is when Chrome guesses as what will next be browsed and loads it in advance. This allows lesser wait for the website to load like in conventional browsers. This does add to Chrome’s speed significantly.  
+            <br>
+            </h3>
+            <h2 class= "name">Solution.... Kinda</h2>
+            <img class="img-intro-blog" src="../Images/sol1.jpg">
+            <br>
+            <h3>
+            Chrome does try to compensate for this high usage with some memory management tricks. Some of them are Tab Discarding. This is when Chrome automatically unloads a few tabs from memory which aren't being used or haven't been clicked on in a while. However, when the user does open it, it is significantly delayed as Chrome reloads the content again. 
+            
+            The easiest solution to this is to get more RAM or manage tabs better. However other than that, changing browsers wont exactly help as many other browsers use the exact sandbox technique to keep the experience smooth. But Chrome does have a task manager where the user can accordingly end extensions and tabs that are using too much RAM.   
         
         
         
         </h3>
+        </div>
     </div>
 
+    <footer class="footer inv-grad">
 
-    <footer class="footer">
         <div class="footer-header">For more information, reach out!</div>
         <ul class="social-links list-non-bullet">
             <li class="list-item-inline inline">
-                <a class="link" href="/">
-                    Github
+                <a class="link" href="https://twitter.com/rishabhjot" target="_blank">
+                    <i class='bx bxl-twitter bx-tada-hover bx-md'></i>
                 </a>
             </li>
             <li class="list-item-inline inline">
-                <a class="link" href="/">
-                    Twitter
+                <a class="link" href="https://github.com/rjsrishabh26"target_blank>
+                    <i class='bx bxl-github bx-tada-hover bx-md'></i>
                 </a>
             </li>
             <li class="list-item-inline inline">
-                <a class="link" href="/">
-                    Linkedin
+                <a class="link" href="https://www.linkedin.com/in/rishabhjot-singh-sandhu-3b2031202/" target="_blank">
+                    <i class='bx bxl-linkedin-square bx-tada-hover bx-md'></i>
                 </a>
             </li>
-            
         </ul>
     </footer>
+
+
 </body>
 </html>
