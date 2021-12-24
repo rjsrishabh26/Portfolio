@@ -1,70 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
 
-:root{
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+
+}
+
+:root {
     --black: #000000;
-    --off-white:#EFF6FF;
+    --off-white: #EFF6FF;
     --green: #34D399;
     --white: #FFFFFF;
     /* #34D399 */
 }
 
-p{
-    font-size: x-large;
-    margin: 0rem 10rem;
-    padding: 1rem;
+html,
+body {
+    height: 100%;
 }
-h1{
+
+p {
+    font-size: x-large;
+    margin: 0rem 1rem;
+    padding: 1rem 1rem;
+    /* max-width: 80%;
+    text-align: center; */
+    margin: auto;
+    max-width: 80%
+
+}
+
+h1 {
     font-size: xxx-large;
 }
-h2{
+
+h2 {
 
     font-size: xx-large;
 }
 
-body{
+body {
     font-family: 'Ubuntu', sans-serif;
-    margin: 0px;
     /* font-weight: bold; */
     text-align: center;
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
     /* background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB); */
 }
+
 /* hr{
     margin: 2rem 0rem;
 } */
-.non-bullet{
-    list-style: none;
+.text-slider-items {
+    font-size: x-large;
+    color: var(--green);
 }
-.inline{
-    display:inline;
+
+.text-slider {
+    font-size: x-large;
+    color: var(--green);
+}
+
+.non-bullet {
+    list-style: none;
+    padding-top: 1rem;
+}
+
+.inline {
+    display: inline;
     padding: 0rem 1rem;
 }
-.nav-items{
+
+.nav-items {
     text-align: center;
     font-size: larger;
 }
-.nav-brand{
+
+.nav-brand {
     padding: 1rem 0rem;
     font-size: x-larger;
     color: black;
 }
+
 .container {
     padding: 0rem 0.5rem;
 }
+
 /* The navigation bar */
-.navigation{
+.navigation {
     overflow: hidden;
-    background-color:#F3F4F6;
+    background-color: #F3F4F6;
     position: fixed;
-    top: 0; 
+    top: 0;
     width: 100%;
     height: 60px;
-    background: linear-gradient(#B2B0B0,white );
+    background: linear-gradient(#B2B0B0, white);
+
 }
+
 .navigation a:hover {
     background: var(--black);
     color: var(--white);
-  }
+}
 
 .link {
     box-sizing: border-box;
@@ -72,58 +116,70 @@ body{
     padding: 0.5rem 0.5rem;
     color: var(--green)
 }
-.link:hover{
-    color:white;
+
+.link:hover {
+    color: white;
 }
+
 .link-black {
     background-color: var(--green);
     border-radius: 0.5rem;
     color: black;
     font-size: x-large;
-    
+
 }
+
 .link-white {
     background-color: var(--green);
     border-radius: 0.5rem;
     color: white;
     font-size: x-large;
 }
-.nav-inactive{
-    color:black;
+
+.nav-inactive {
+    color: black;
     font-weight: bolder;
 }
-.nav-active{
-    color:var(--white);
+
+.nav-active {
+    color: var(--white);
     font-weight: bolder;
     background-color: var(--black);
     border-radius: 0.25rem;
 }
-.offwhite-cont{
+
+.offwhite-cont {
     background-color: var(--off-white);
     padding: 2rem;
     font-weight: bold;
 }
-.name{
+
+.name {
     color: var(--green);
 
 }
-.black-cont{
+
+.black-cont {
     background-color: var(--black);
-    padding:2rem;
+    padding: 1rem;
     color: var(--white);
 }
-.footer-items{
+
+.footer-items {
     text-align: center;
     font-size: large;
 }
 
 .footer {
     background-color: var(--white);
-    padding: 0rem 1rem;
+    padding: 0rem 0rem;
+    margin-bottom: 0;
     text-align: center;
     color: var(--black);
     border-top-right-radius: 1rem;
-    font-weight:bold ;
+    font-weight: bold;
+
+
 }
 
 .footer .link {
@@ -138,93 +194,108 @@ body{
 .footer ul {
     padding-inline-start: 0px;
 }
-.img-intro{
+
+.img-intro {
     max-width: 300px;
     display: block;
     margin: auto;
     padding: 95px 0px 0px 0px;
     width: 250px;
 
-  }
+}
 
-.img-blog{
+.img-blog {
     max-width: 100px;
     display: block;
     margin: auto;
     padding: 0rem;
 }
-.img-project{
+
+.img-project {
     max-width: 100px;
     display: block;
     margin: auto;
     padding: 0rem;
 }
-.img-footer{
+
+.img-footer {
     max-width: 100px;
     display: block;
     margin: auto;
     padding: 1rem;
 }
-.date{
+
+.date {
     font-size: small;
     color: var(--white)
 }
-hr{
+
+hr {
     max-width: 300px;
     align-self: center;
 }
-.link-heading{
+
+.link-heading {
     color: var(--green);
     outline-style: none;
 }
-.link-heading:hover{
+
+.link-heading:hover {
     background-color: white;
     color: var(--green);
-    border:solid black;
+    border: solid black;
     border-radius: 1rem;
     padding: 1rem;
 }
-.tittle{
+
+.tittle {
     text-align: center;
     padding: 95px 0px 0px 0px;
 }
-.blog-tittle{
+
+.blog-tittle {
     padding: 2rem;
 }
 
 
-.blog-date{
+.blog-date {
     font-size: small;
     color: var(--green);
 }
-.hello{
+
+.hello {
     font-size: large;
     /* padding:2rem; */
 }
-.intro{
+
+.intro {
     background-color: var(--off-white);
-    padding: 0rem 4rem;
+    padding: 0rem 1rem;
     font-weight: bold;
 }
+
 .link-white:hover {
     background-color: white;
     color: var(--green);
-    border:solid black;
+    border: solid black;
 }
 
 .link-black:hover {
     background-color: black;
     color: var(--green);
-    border:solid white;
+    border: solid white;
 }
-.emphasis{
+
+.emphasis {
     font-weight: bolder;
     font-style: italic;
-    
+
 }
-.inv-grad{
-    background: linear-gradient(white, #B2B0B0 );
+
+.inv-grad {
+    background: linear-gradient(white, #B2B0B0);
 }
+
 /* .test{
      
 } */
@@ -238,28 +309,42 @@ hr{
     width: 100%;
     height: 0;
     transition: .5s ease;
-  }
-  .container:hover .overlay {
-    bottom: 0;
-    height: 100%;
-  }
-.name1{
-    color: var(--green);
-    font-size: x-large;
-    
-}
-.photo{
-    width: 20%;
-    
 }
 
-.blog-text{
+.container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.name1 {
+    color: var(--green);
+    font-size: x-large;
+
+}
+
+.photo {
+    width: 20%;
+
+}
+
+.blog-text {
     padding: 1rem;
     margin: 0% 10%;
 }
 
-.img-intro-blog{
+.img-intro-blog {
     width: 60%;
     height: 30vh;
 }
 
+
+
+
+
+.fade-in{
+    opacity: 0;
+    transition: opacity 1800ms ease-in;
+}
+.fade-in.appear{
+    opacity: 1;
+}
